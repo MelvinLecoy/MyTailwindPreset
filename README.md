@@ -2,7 +2,7 @@
 This is my personal utilities preset to shorten the traditional tailwind. **WARNING: This an extreme version that covers pretty much every hard-coded values**.
 
 ## Problems with Tailwind
-Tailwind is basically, in my humble opinion, the perfect CSS toolkit, except for that one notoriously annoying part - **incredibly ugly HTML**. Especially not being a big fan of putting HTML tags across multiple lines, I gradually find those excessively long tags unacceptable.  
+Tailwind is basically, in my humble opinion, the perfect CSS toolkit, except for that one notoriously annoying part - **incredibly ugly HTML**. Especially for someone who's not a big fan of putting HTML tags across multiple lines, I gradually find those excessively long tags unacceptable.  
 Some people argue that my version of Tailwind is just not readable. While I agree my syntax becomes less legible, we have to eventually strike a balance between legibility and level of satisfaction, and I've done my best job to match the acronyms as logical as I can. However, I would argue that it takes only about **15 mins** for traditional Tailwind to switch over to my concise version, but with at least **20%** boost in efficiency once you get a hold of it, 
 ### Minor unpleasant part: inconsistent gaps
 Another tedious thing is the gap system of the default Tailwind utility classes. Normally, the gaps are either 4px or 2px. But it may goes up to 16px after it reaches certain values. It is actually not rare to miss out on the gaps and I've had traumatic experiences debugging with this exact problem. (I know Emmet exists but still)  
@@ -48,4 +48,5 @@ With my version, I don't need to always have that in mind and double check if th
     </div>
 </div>
 ```
-**The difference is noticeable!!!** But media queries with responsive modifiers are still very long......
+**The difference is noticeable!!!** But media queries with responsive modifiers are still very long......  
+***For people who focus on readability, do you genuinely need every style keyword to be that specific?***
