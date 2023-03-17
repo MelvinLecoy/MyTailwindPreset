@@ -1,0 +1,14 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "widthpercent.css";
+@import "widthpx.css";
+@import "widthvw.css";
+
+
+@layer utilities {
+    .wfit {@apply w-fit} .wsingleword {@apply w-min} .wentireline {@apply w-max}
+    .maxwfit {@apply max-w-fit} .maxwsingleword {@apply max-w-min} .maxwentireline {@apply max-w-max} .maxwnone {@apply max-w-none} .maxw65ch {@apply max-w-prose   /* 65 char a line, good readability */}
+    .minwfit {@apply min-w-fit} .minwsingleword {@apply min-w-min} .minwentireline {@apply min-w-max}
+}

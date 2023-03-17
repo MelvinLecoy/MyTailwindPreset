@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "./kesutils/utils.css";
+
+@layer components {
+    .btn {
+        font-family: 'Roboto';
+        @apply brounded6 w180 h30
+    }
+}

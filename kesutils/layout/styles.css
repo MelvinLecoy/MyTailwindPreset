@@ -1,0 +1,38 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "aspectratio.css";
+@import "zindex.css";
+
+/* 1. position */
+@layer utilities {
+    .rela {@apply relative} .abso {@apply absolute}
+}
+/* 2. display */
+@layer utilities {
+    .blk {@apply block} .il {@apply inline} .ilb {@apply inline-block} .ilf {@apply inline-flex} .ilg {@apply inline-grid}
+    /* hidden	display: none;   vs    visibility*/
+}
+/* 3. overflow */
+@layer utilities {
+    .ofh {@apply overflow-hidden} .ofxh {@apply overflow-x-hidden} .ofyh {@apply overflow-y-hidden}
+    .ofs {@apply overflow-scroll} .ofxs {@apply overflow-x-scroll} .ofys {@apply overflow-y-scroll}
+    .ofv {@apply overflow-visible} .ofxv {@apply overflow-x-visible} .ofyv {@apply overflow-y-visible}
+}
+/* 4. box sizing */
+@layer utilities {
+    .borderbox {@apply box-border} .contentbox {@apply box-content}
+}
+
+
+/* 7. object fit, background fit */
+@layer utilities {
+    .objcov {@apply object-cover} .objcont {@apply object-contain} .objfill {@apply object-fill} /*Stretch img*/
+    .bgcov {@apply bg-cover} .bgcont {@apply bg-contain} .bgauto {@apply bg-auto}
+}
+/* 8. object position */
+/* 9. floats */
+@layer utilities {
+    .floatr {@apply float-right} .floatl {@apply float-left}
+}
